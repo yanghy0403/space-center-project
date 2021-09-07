@@ -1,0 +1,111 @@
+ul.sc-list{
+    min-height: 350px;
+    li{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dashed #ccc;
+        padding: 10px 20px;
+        .sc-left{
+            // padding-right: 20px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            // width: 140px;
+            height: 135px;
+            img{
+                width: 115px;
+                height: 130px;
+                cursor: pointer;
+            }
+        }
+        .sc-effect{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sc-right{
+            h3{
+                font-weight: 650;
+                font-size: 15px;
+                
+                line-height: 24px;
+                margin-bottom: 5px;
+                display: flex;
+                align-items: center;
+                a {
+                    color: #1843A3;
+                    cursor: pointer;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                span{
+                    display: inline-block;
+                    background-color: #F6B836;
+                    font-weight: 400;
+                    font-size: 12px;
+                    padding: 0px 8px;
+                    margin-left: 10px;
+                    border-radius: 5px;
+                    line-height: 1.6;
+                    transform: translate(0px,-3px);
+                    color: #FFFFFF;
+                }
+            }
+            .sc-box{
+                .sc-top{
+                    font-weight: 200;
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    line-height: 26px;
+                    overflow: hidden;
+                    div {
+                        margin-right: 30px;
+                        float: left;
+                        
+                        label {
+                            color: #000;
+                        }
+                        span {
+                            color: #666;
+                            background: #f3f3f3;
+                            padding: 1px 15px;
+                            border-radius: 2px;
+                        }
+                    }
+                    
+                }
+                .sc-bottom{
+                    p{
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 13px;
+                        color: #666;
+                        line-height: 26px;
+                        span{
+                            margin-right: 30px;
+                        }
+                    }
+                }
+                .sc-tag{
+                    label {
+                        font-size: 13px;
+                        color: #666;
+                    }
+                    span {
+                        font-size: 13px;
+                        color: #1843A3;
+                        margin-right: 10px;
+                    }
+
+                }
+            }
+        }
+        .sc-rader-right{
+            width: 130px;
+            height: 130px;
+        }
+    }
+    li:last-child {
+        border-bottom: 0px dashed;
+    }
+}

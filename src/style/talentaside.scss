@@ -1,0 +1,80 @@
+.sc-warp{
+    aside{
+       margin-bottom: 20px;
+        ol{
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            cursor: pointer;
+            list-style: none;
+            li{
+                padding: 10px 15px;
+                margin-bottom: 10px;
+                background-color: #2d8cf0;
+                transition: all 0.25s;
+            }
+            li:hover{
+                background-color: #1843a3;
+                box-shadow: 0px 0px 1px #1843a3;
+            }
+            .active {
+                background-color: #1843a3 !important;
+            }
+        }
+        >div:nth-child(2){
+            border-top:1px solid rgba(228, 228, 228, 1);
+        }
+        >div{
+            border:1px solid rgba(228, 228, 228, 1);
+            border-top: 0px;
+            background-color: #FCFCFC;
+            color: #999999;
+            padding: 20px;
+            h4{
+                font-size: 15px;
+                font-weight: 700;
+                padding: 7px 0px;
+            }
+            ul{
+                li{
+                    cursor: pointer;
+                    font-size: 13px;
+                    padding: 7px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    p{ 
+                        transform: translate(0px,0px);
+                        transition: transform 0.2s;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        height: 20px;
+                    }
+                }
+                li:hover p{
+                    color: #29ABE2;
+                    transform: translate(2px,0px);
+                }
+            }
+        }
+    }
+    .sc-additional{
+        font-weight: 400;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+        h3{
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        h4{
+            font-size: 14px;
+            line-height: 28px;
+        }
+        p{
+            margin: 10px 0px;
+        }
+    }
+}
